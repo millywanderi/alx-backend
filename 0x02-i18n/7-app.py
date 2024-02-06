@@ -61,7 +61,7 @@ def get_locale() -> str:
     return app.config['BABEL_DEFAULT_LOCALE']
 
 
-@label.timezoneselector
+@babel.timezoneselector
 def get_timezone() -> str:
     """A method that retrieves timezone for a web page"""
     timezone = request.args.get('timezone', '').strip()
