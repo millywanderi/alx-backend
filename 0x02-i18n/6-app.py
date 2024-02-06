@@ -63,7 +63,7 @@ def get_locale() -> str:
 @app.route('/')
 def index() -> str:
     """This is the home page"""
-    return render_template('5-index.html')
+    return render_template('6-index.html')
 
 
 if __name__ == '__main__':
